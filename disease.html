@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            Health Website
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+        <body>
+            <center>
+                <h1 id="name"></h1>
+                <h2>
+                    Informations on RingWorms, Flu and Yeast
+                </h2>
+                <span><img src="images (1).png"></span>
+                
+                <h3>Flu</h3>
+                <div id="flu" class="container"></div>
+                <button class="btn btn-danger" id="FLU" width="30%" onclick="flu()">Info</button>
+                <br>
+                <br>
+                <h3>Ringworms</h3>
+                <div id="Ringworms" class="container"></div>
+                <button class="btn btn-warning" id="RINGWORMS" width="30%" onclick="Ringworms()">Info</button>
+                <br>
+                <br>
+                <h3>Yeast</h3>
+                <div id="peest" class="container"></div>
+                <button class="btn btn-inf" id="YEAST" width="30%" onclick="Peest()">Info</button>
+            </center>
+            <br>
+            <br>
+            <br>
+            <button onclick="logout()" class="btn btn-danger">logout</button>
+        </body>
+        <script src="fly.js"></script>
+</html>

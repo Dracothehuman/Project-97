@@ -1,0 +1,25 @@
+body
+{
+    background-image: linear-gradient(to left top, #d83911, #9b4e3ac1, #ffffff, #c94c9f, #813675);
+}
+#jo
+{
+    width: 200px;
+}
+.container
+{
+    background-color: #ffffff;
+    border-radius: 50px;
+    width: 300px;
+    height: 325px;
+}
+img
+{
+    border-radius: 30px;
+    height:75px;
+    width:75px;
+}
+#jo
+{
+    background-color: chartreuse;
+}
